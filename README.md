@@ -1,0 +1,2 @@
+# jjdxm_base64
+Android中使用base64编码需要独立复制架包到项目中
