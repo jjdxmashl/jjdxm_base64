@@ -1,7 +1,7 @@
 # [jjdxm_base64][project] #
 ## Introduction ##
 
-### Android中使用base64编码需要独立复制架包到项目中 ###
+### Java中经常使用的base64编码和解码，而在Android中使用base64编码则需要独立复制架包到项目中。为了能方便在Android Studio中使用base64的编码和解码，特地将Java中的base64库重新打包到jcenter中，直接使用compile命令进行依赖即可。 ###
 
 ## Features ##
 
@@ -9,9 +9,6 @@
 
 ## Download ##
 
-[demo apk下载][downapk]
-
-[下载最新版本jar][lastjar]
 
 Download or grab via Maven:
 
@@ -24,6 +21,11 @@ Download or grab via Maven:
 or Gradle:
 
 	compile 'com.dou361.base64:jjdxm-base64:x.x.x'
+
+历史版本
+
+	compile 'com.dou361.base64:jjdxm-base64:1.0.0'
+
 
 
 jjdxm-base64 requires at minimum Java 15 or Android 4.0.
